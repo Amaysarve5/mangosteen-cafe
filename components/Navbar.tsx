@@ -207,7 +207,7 @@ export default function Navbar() {
             transition={{ duration: 0.3 }}
             className="fixed inset-0 z-40 lg:hidden"
           >
-            <div className="absolute inset-0 bg-cream/98 backdrop-blur-lg" />
+            <div className="absolute inset-0 bg-transparent backdrop-blur-sm" />
             <div className="relative h-full flex flex-col items-center justify-center gap-8 p-8">
               {navLinks.map((link, index) => (
                 <motion.a
