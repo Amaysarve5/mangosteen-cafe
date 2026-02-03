@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body
-        className="font-sans antialiased relative min-h-screen overflow-x-hidden"
+        className="font-sans antialiased relative min-h-[100dvh] overflow-x-hidden"
         style={{ fontFamily: "var(--font-inter), sans-serif" }}
       >
         <div className="mobile-video-bg" aria-hidden="true">

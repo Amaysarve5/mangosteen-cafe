@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <ThemeProvider>
-      <main className="min-h-screen transition-colors duration-700">
+      <main className="min-h-[100dvh] transition-colors duration-700">
         <Navbar />
         <Hero />
         <Menu />
