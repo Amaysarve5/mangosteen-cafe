@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
+  <rect width="200" height="120" rx="12" fill="#FFF8F5" />
+  <g transform="translate(18,18)">
+    <path d="M30 50c10-20 60-20 90 0" fill="#EFDCC8" />
+    <g transform="translate(36,38)">
+      <circle cx="8" cy="4" r="6" fill="#7C5B45" />
+      <circle cx="24" cy="2" r="5" fill="#7C5B45" />
+      <circle cx="44" cy="6" r="4" fill="#7C5B45" />
+    </g>
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Truffle Mushroom Pasta</text>
+  </g>
+</svg>

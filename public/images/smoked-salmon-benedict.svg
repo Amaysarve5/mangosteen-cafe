@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="12" fill="#FFF7F5" />
+  <g transform="translate(18,20)">
+    <rect x="10" y="58" width="140" height="30" rx="6" fill="#F2E6DE" />
+    <rect x="40" y="28" width="80" height="24" rx="12" fill="#F8C1B0" />
+    <circle cx="80" cy="36" r="6" fill="#F2E6DE" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Smoked Salmon Benedict</text>
+  </g>
+</svg>

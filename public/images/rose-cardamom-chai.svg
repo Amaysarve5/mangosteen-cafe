@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="12" fill="#FFF7F8" />
+  <g transform="translate(18,18)">
+    <rect x="58" y="36" width="68" height="44" rx="16" fill="#FDEEF4" />
+    <circle cx="86" cy="50" r="6" fill="#F4D0DA" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Rose Cardamom Chai</text>
+  </g>
+</svg>

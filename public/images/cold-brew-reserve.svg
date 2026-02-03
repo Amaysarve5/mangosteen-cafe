@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="12" fill="#F7FBFD" />
+  <g transform="translate(18,18)">
+    <rect x="64" y="24" width="36" height="72" rx="8" fill="#D6EFF7" />
+    <rect x="66" y="28" width="32" height="8" rx="4" fill="#A4D3E8" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Cold Brew Reserve</text>
+  </g>
+</svg>

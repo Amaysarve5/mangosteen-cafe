@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="12" fill="#FFF6F7" />
+  <g transform="translate(18,18)">
+    <rect x="54" y="36" width="72" height="44" rx="18" fill="#F6E6E9" />
+    <path d="M64 72c8-6 32-6 40 0" stroke="#6B5C4C" stroke-width="3" fill="none" stroke-linecap="round" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Artisan Hot Chocolate</text>
+  </g>
+</svg>

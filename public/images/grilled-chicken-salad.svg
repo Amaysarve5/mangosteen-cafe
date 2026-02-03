@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
+  <rect width="200" height="120" rx="12" fill="#F7FFF3" />
+  <g transform="translate(14,18)">
+    <rect x="8" y="54" width="144" height="34" rx="8" fill="#E9E6DA" />
+    <ellipse cx="80" cy="28" rx="56" ry="24" fill="#DFF3CE" />
+    <circle cx="66" cy="22" r="6" fill="#F3D5B2" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Grilled Chicken Salad</text>
+  </g>
+</svg>

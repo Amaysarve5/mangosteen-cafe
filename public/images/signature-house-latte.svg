@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+  <rect width="200" height="120" rx="12" fill="#FFF9F6" />
+  <g transform="translate(18,18)">
+    <rect x="34" y="36" width="80" height="48" rx="20" fill="#F3E7DE" />
+    <ellipse cx="74" cy="42" rx="30" ry="10" fill="#FFF2E6" />
+    <path d="M60 78c8-6 28-6 36 0" stroke="#C9A962" stroke-width="3" fill="none" stroke-linecap="round" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Signature House Latte</text>
+  </g>
+</svg>

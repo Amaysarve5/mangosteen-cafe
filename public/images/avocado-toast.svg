@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#C7E5A6" />
+      <stop offset="1" stop-color="#88C057" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="120" rx="12" fill="#FFF6EB" />
+  <g transform="translate(16,20)">
+    <rect x="0" y="48" width="168" height="36" rx="8" fill="#EBD6B8" />
+    <ellipse cx="84" cy="18" rx="54" ry="28" fill="url(#g)" />
+    <circle cx="98" cy="18" r="8" fill="#F2E8C9" />
+    <circle cx="72" cy="18" r="4" fill="#F7D9D0" />
+    <text x="6" y="110" font-family="Inter, sans-serif" font-size="10" fill="#6B5C4C">Avocado Toast</text>
+  </g>
+</svg>
