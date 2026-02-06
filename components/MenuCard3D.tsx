@@ -45,7 +45,7 @@ export default function MenuCard3D({
           "noopener,noreferrer"
         )
       }
-      className={`flip-card h-[520px] sm:h-[440px] md:h-[460px] lg:h-[480px] cursor-pointer group ${
+      className={`flip-card h-[520px] sm:h-[440px] md:h-[500px] lg:h-[540px] cursor-pointer group ${
         isFlipped ? "is-flipped" : ""
       }`}
     >
@@ -74,7 +74,7 @@ export default function MenuCard3D({
             {/* Category Badge */}
             <div className="relative z-10 mb-3">
               <span
-                className={`inline-block px-3 py-1 text-xs tracking-wider uppercase rounded-full bg-white/15 text-cream`}
+                className={`inline-block px-3 py-1 text-xs tracking-wider uppercase rounded-full bg-white/15 text-cream sm:text-warm-brown`}
               >
                 {item.category}
               </span>
@@ -122,12 +122,12 @@ export default function MenuCard3D({
             {/* Content */}
             <div className="relative z-10 mt-2">
               <h3
-                className="text-2xl sm:text-3xl font-serif text-cream mb-3"
+                className="text-2xl sm:text-3xl font-serif text-cream sm:text-charcoal mb-3"
                 style={{ fontFamily: "var(--font-playfair), serif" }}
               >
                 {item.name}
               </h3>
-              <p className="text-cream/80 text-base sm:text-lg line-clamp-2 mb-4">
+              <p className="text-cream/80 sm:text-warm-brown text-base sm:text-lg line-clamp-2 mb-4">
                 {item.shortDesc}
               </p>
             </div>
@@ -147,7 +147,7 @@ export default function MenuCard3D({
                 </span>
               )}
               <span
-                className="text-xs tracking-wider uppercase text-cream/50"
+                className="text-xs tracking-wider uppercase text-cream/50 sm:text-warm-brown/70"
               >
                 Hover for details
               </span>

@@ -81,17 +81,19 @@ export default function SignatureDrinks() {
 
                 {/* Name */}
                 <h4
-                  className="text-2xl lg:text-3xl font-serif text-cream mb-2"
+                  className="text-2xl lg:text-3xl font-serif text-cream sm:text-charcoal mb-2"
                   style={{ fontFamily: "var(--font-playfair), serif" }}
                 >
                   {drink.name}
                 </h4>
 
                 {/* Tagline */}
-                <p className="text-gold text-sm italic mb-4">{drink.tagline}</p>
+                <p className="text-gold sm:text-warm-brown text-sm italic mb-4">
+                  {drink.tagline}
+                </p>
 
                 {/* Description */}
-                <p className="text-cream/80 text-sm leading-relaxed">
+                <p className="text-cream/80 sm:text-warm-brown text-sm leading-relaxed">
                   {drink.description}
                 </p>
 

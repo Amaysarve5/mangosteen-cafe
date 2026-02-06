@@ -218,8 +218,8 @@ export default function Menu() {
                 whileTap={{ scale: 0.98 }}
                 className={`px-6 py-3 rounded-full text-sm tracking-wider uppercase transition-all duration-300 ${
                   activeCategory === category
-                    ? "bg-transparent text-cream border border-cream/60 shadow-lg"
-                    : "bg-transparent text-cream border border-cream/30 hover:bg-white/10"
+                    ? "bg-transparent text-cream border border-cream/60 shadow-lg sm:text-forest sm:border-forest/30"
+                    : "bg-transparent text-cream border border-cream/30 hover:bg-white/10 sm:text-warm-brown sm:border-warm-brown/30 sm:hover:bg-warm-brown/10"
                 }`}
               >
                 {category}
@@ -265,7 +265,7 @@ export default function Menu() {
             transition={{ duration: isFoodCategory ? 0.6 : 0.4 }}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {menuItems[activeCategory].map((item, index) => (
+            {(menuItems[activeCategory] ?? []).map((item, index) => (
               <MenuCard3D
                 key={item.name}
                 item={item}
@@ -273,6 +273,16 @@ export default function Menu() {
                 variant={isFoodCategory ? "food" : "delivery"}
               />
             ))}
+            {(!menuItems[activeCategory] || menuItems[activeCategory].length === 0) && (
+              <div className="col-span-full text-center glass rounded-2xl p-10">
+                <h4 className="text-2xl font-serif text-cream sm:text-charcoal mb-3">
+                  Coming soon
+                </h4>
+                <p className="text-cream/80 sm:text-warm-brown">
+                  We’re curating dishes for this category. Please check back shortly.
+                </p>
+              </div>
+            )}
           </motion.div>
         </AnimatePresence>
 
